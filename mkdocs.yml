@@ -1,0 +1,99 @@
+site_name: Terraform Learn
+site_description: Terraform Learn
+site_url: https://moabukar.github.io/terraform-learn/
+site_author: Mo Abukar
+
+repo_url: https://github.com/moabukar/terraform-learn/
+dev_addr: "127.0.0.1:8000"
+docs_dir: docs
+theme: 
+  # name: material
+  # name: dracula
+  # name: gitbook
+  name: dracula
+  include_sidebar: true
+  # custom_dir: overrides
+  extra_css:
+    - assets/stylesheets/custom.css
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: dark blue
+      accent: lime
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+
+extra_javascript:
+  - assets/js/hljs/highlight.pack.js # Download from https://highlightjs.org/download/ and enable YAML, TOML and Dockerfile
+  - assets/js/extra.js
+
+plugins:
+  - search
+  # - exclude:
+  #     glob:
+  #       - "**/include-*.md"
+  - git-revision-date
+  # - pdf-export:
+  #     combined: true
+
+markdown_extensions:
+  - meta
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      check_paths: true
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  # - toc:
+  #     permalink: true
+
+nav:
+- Home: index.md
+- Terraform:
+    - Basics:
+        - Terraform Intro: basic/terraform-intro.md
+    # - Modules
+
+
+- Contribute: CONTRIBUTING.md
+- Code of Conduct: CODE_OF_CONDUCT.md
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/moabukar"  target="_blank" rel="noopener">Mohamed Abukar</a>
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/moabukar
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/moabukar_1
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/moabukar/
