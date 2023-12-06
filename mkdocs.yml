@@ -78,8 +78,10 @@ markdown_extensions:
 nav:
 - Home: index.md
 - Terraform:
-    - Basics:
-        - Terraform Intro: basic/terraform-intro.md
+    - Terraform Intro:
+        - What is IAC: terraform-intro/what-is-iac.md
+        - Terraforming Tips: terraform-intro/terraforming-tips.md
+        - Terraform state file: terraform-intro/terraform-state.md
     # - Modules
 
 
