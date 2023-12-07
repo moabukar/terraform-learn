@@ -16,3 +16,5 @@ It is very important to understand the relationship between your terraform confi
 - Terraform tries to ensure that infrastructure code is based on desired state. If there is difference between the two, terraform plan presents the changes neccessary to achieve desired state.
 
 - In order to check if the current state is the same as the desired state run a 'terraform plan' and you should receive a prompt back saying “No changes. Infrastructure up to date”.
+
+- Running ''' terraform refresh ''' will retrieve the current state of resources and add any changes to the tfstate file.
