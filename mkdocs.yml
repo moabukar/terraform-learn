@@ -82,7 +82,8 @@ nav:
         - What is IAC: terraform-intro/what-is-iac.md
         - Terraforming Tips: terraform-intro/terraforming-tips.md
         - Terraform state file: terraform-intro/terraform-state.md
-    - Provisioning Infrastructure: provisioning-infrastructure/provider-config.md
+    - Provisioning Infrastructure: 
+        - Provider Configuration: provisioning-infrastructure/provider-config.md
     # - Modules
 
 
