@@ -84,6 +84,9 @@ nav:
         - Terraform state file: terraform-intro/terraform-state.md
     - Provisioning Infrastructure: 
         - Provider Configuration: provisioning-infrastructure/provider-config.md
+        - Terraform Plan: provisioning-infrastructure/terraform-plan.md
+        - Terraform Apply: provisioning-infrastructure/terraform-apply.md
+        - Terraform Destroy: provisioning-infrastructure/terraform-destroy.md
     # - Modules
 
 
